@@ -1,0 +1,143 @@
+body
+{
+    padding: 0%;
+    margin: 0%;
+   
+}
+img
+{
+    position: relative;
+    width: 266px;
+    height: 116.51px;
+}
+
+.container
+{
+    height: 100vh;
+    background-image: linear-gradient(to right,#030304a7,#06080aab),url(photo_2023-04-11_10-26-49.jpg);
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.he
+{
+    color: white;
+    position: absolute;
+    padding-left: 210px;
+    font-style: normal;
+font-weight: 450;
+font-size: 55px;
+
+}
+input{
+
+        width: 330px;
+        font-size: 18px; 
+        padding: 16px;   
+        border-radius: 100px;
+        mix-blend-mode: normal;
+        border: 2px solid red;
+        border-radius: 100px;
+        background: none;
+        
+}
+.input1
+{
+    padding-left: 100px;
+    padding-top: 200px;
+    
+}
+.input2
+{
+    padding-left: 100px;
+    padding-top: 15px;
+}
+button{
+    width: 372px;
+    font-size: 18px; 
+    padding: 16px;   
+    border-radius: 100px;
+    background: #FFCD2D;
+    backdrop-filter: blur(200px);
+
+}
+.button
+{
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.copy
+{
+    color: white;
+    padding-left: 1300px;
+    padding-top: 140px;
+}
+ 
+ @media only screen and (max-width:390px)
+{
+.container
+{
+    height: 100vh;
+    background-image: url(BAck.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.he
+{
+    color: white;
+    position: absolute;
+    padding-left: 175px;
+    padding-top: 50px;
+    font-style: normal;
+font-weight: 250;
+font-size: 35px;
+
+}
+img
+{
+    position: relative;
+    width: 137px;
+    height: 40px;
+    padding-left: 15px;
+}
+input{
+
+    width: 236px;
+    font-size: 16px; 
+    padding: 8px;   
+    border-radius: 100px;
+    mix-blend-mode: normal;
+    border: 2px solid #FFCD2D;
+    border-radius: 100px;
+    background: none;
+    
+}
+.input1
+{
+    padding-left: 103px;
+    padding-top: 200px;
+    
+}
+.input2
+{
+    padding-left: 103px;
+    padding-top: 15px;
+}
+button{
+    width: 250px;
+    font-size: 16px; 
+    padding: 8px;   
+    border-radius: 100px;
+    background: #FFCD2D;
+    backdrop-filter: blur(200px);
+
+}
+.button
+{
+    padding-left: 104px;
+    padding-top: 60px;
+}
+}   
